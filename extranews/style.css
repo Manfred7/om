@@ -154,7 +154,7 @@ html, body {
 body {
 	margin:0;
 	overflow-x: hidden;
-	font-size:12px;
+	font-size:16px;
 	line-height:18px;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -222,7 +222,7 @@ body {
 /* #Site Wide Typography
 ================================================== */
 p, ul {
-	font-size:12px;
+	font-size:16px;
 	line-height: 18px;
 	margin-bottom: 10px;
 }
@@ -801,12 +801,14 @@ ul ul li, ul ol li,  ol ol li, ol ul li {
 li {
 	line-height: 18px;
 	margin-bottom: 12px;
+	font-size:16px;
 }
 ul.large li {
 	line-height: 21px;
 }
 li p {
 	line-height: 21px;
+	
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -4640,4 +4642,21 @@ ul.authorinfo {
 	max-width: 190px;
 }
 
+}
+
+
+.mylogo {
+	float:left;
+}
+
+
+.mylogo  a {
+font-size:45px;
+	line-height:48px;
+
+	margin:0;
+	padding:0;
+	color:#222;
+	padding-top: 0.5em !important;
+	padding-bottom: 0.1em !important;	
 }

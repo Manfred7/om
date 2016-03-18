@@ -1011,3 +1011,24 @@ function tw_register_required_plugins() {
 }
 
 add_action( 'tgmpa_register', 'tw_register_required_plugins' );
+function del_number_url_morkovin(){
+	$link = $_SERVER['REQUEST_URI'];
+
+	preg_match("/^(.+)\/([0-9]+)$/", $link, $matches);
+
+	if(is_single() and $matches[2])
+	{
+		global $wp_query;
+		$wp_query->set_404();
+		status_header(404);
+	}
+}
+add_action('wp', 'del_number_url_morkovin', -10);
+remove_action('wp_head', 'rsd_link');
+remove_action('wp_head','rel_canonical');
+remove_action('wp_head', 'wp_generator');
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action( 'wp_head', 'wp_shortlink_wp_head');
+remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head');
+remove_action( 'wp_head', 'feed_links', 2 );
+remove_action( 'wp_head', 'feed_links_extra', 3);

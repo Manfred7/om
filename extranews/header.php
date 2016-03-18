@@ -28,15 +28,24 @@ $browser = $_SERVER['HTTP_USER_AGENT'];
   ================================================== -->
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <?php if ( $favicon = of_get_option('of_custom_favicon') ) { echo '<link rel="shortcut icon" href="'. $favicon.'"/>'; } ?>
+
+
+
+<title><?php wp_title(''); ?></title>
+
+<!--Site Layout 
+
+
 <title>
 <?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
 	 */
-	global $page, $paged;
+//	global $page, $paged;
 
 	wp_title( '|', true, 'right' );
 
+	
 	// Add the blog name.
 	bloginfo( 'name' );
 
@@ -51,7 +60,11 @@ $browser = $_SERVER['HTTP_USER_AGENT'];
 
 	?>
 </title>
+
+-->
+
 <?php
+
 
 $cyrillic = of_get_option('of_cyrillic_chars');
 
@@ -110,8 +123,11 @@ echo '<style type="text/css">
   ================================================== -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
+<link rel="icon" href="http://obrjadymagii.ru/favicon.ico" type="image/x-icon">
 </head>
 <body <?php body_class(); ?>>
+
+<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter32950804 = new Ya.Metrika({ id:32950804, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/32950804" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 
 <noscript>
   <div class="alert">
@@ -179,13 +195,15 @@ echo '<style type="text/css">
   ================================================== -->
 <div class="sitecontainer container">
 <div class="container clearfix navcontainer">
-    <div class="logo">
-        <h1> <a href="<?php echo home_url(); ?>">
+    <div class="mylogo">
+      
+	  
+	  <a href="<?php echo home_url(); ?>">
             <?php if ( $logo = of_get_option('of_logo') ) { ?>
             <img src="<?php echo $logo; ?>" alt="<?php bloginfo( 'name' ); ?>" />
             <?php } else { bloginfo( 'name' );} ?>
             </a>
-        </h1>
+      
     </div>
     <div class="mobileclear"></div>
     <div class="headerwidget">
@@ -203,7 +221,7 @@ echo '<style type="text/css">
                 <?php wp_list_pages( array('title_li' => '','sort_column' => 'menu_order')); ?>
             </ul>
             <?php } ?>
-            <div class="search"><div class="clear"></div><?php get_search_form(true); ?></div>
+			
              <div class="clear"></div>
          </div>
 
