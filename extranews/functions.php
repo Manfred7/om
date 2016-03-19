@@ -1032,3 +1032,4 @@ remove_action( 'wp_head', 'wp_shortlink_wp_head');
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head');
 remove_action( 'wp_head', 'feed_links', 2 );
 remove_action( 'wp_head', 'feed_links_extra', 3);
+delete_option( 'gform_pending_installation' );
