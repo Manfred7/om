@@ -12,8 +12,7 @@ get_header(); ?>
     ================================================== -->
     <div class="pagetitlewrap">
         <h3 class="pagetitle">
-            <?php wp_title("",true);
-            if(!wp_title("",false)) { echo bloginfo( 'title');} ?>
+            <?php the_title(); ?>
         </h3>
         <div class="mobileclear"></div>
         <span class="description">

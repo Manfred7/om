@@ -12,8 +12,13 @@
     <div class="container clearfix titlecontainer">
         <div class="pagetitlewrap">
             <h3 class="pagetitle">
-                <?php wp_title("",true);
-                if(!wp_title("",false)) { echo bloginfo( 'title');} ?>
+                <?php
+                if ( single_post_title( '', false ) ) {
+                    echo single_post_title();
+                } else {
+                    _e('Blog', 'themewich');
+                }
+                ?>
             </h3>
             <div class="mobileclear"></div>
             <span class="description">

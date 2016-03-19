@@ -1124,8 +1124,15 @@ endif;
 /*-----------------------------------------------------------------------------------*/
 
 if ( !function_exists( 'ag_tag_cloud_args' ) ) :
-	function ag_tag_cloud_args(){
-		return 'smallest=10&amp;largest=12&amp;number=25&amp;orderby=name&amp;unit=px';
+	function ag_tag_cloud_args( $args ){
+		$theme = array(
+			'smallest' => 10,
+			'largest'   => 12,
+			'number' => 25,
+			'orderby' => 'name',
+			'unit' 	=> 'pt');
+		$args = wp_parse_args( $args, $theme );
+		return $args;
 	}
 	add_filter( 'widget_tag_cloud_args', 'ag_tag_cloud_args' );
 endif;

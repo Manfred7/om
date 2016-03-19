@@ -13,7 +13,7 @@ add_action( 'widgets_init', 'ag_125ad_widgets' );
 
 // Register widget
 function ag_125ad_widgets() {
-	register_widget( 'AG_125Ad_Widget' );
+	register_widget( 'ag_125ad_widget' );
 }
 
 // Widget class
@@ -23,7 +23,7 @@ class ag_125ad_widget extends WP_Widget {
 /*	Set up the Widget
 /*----------------------------------------------------------*/
 	
-	function AG_125Ad_Widget() {
+	function __construct() {
 	
 		/* General widget settings */
 		$widget_ops = array( 'classname' => 'ag_125ad_widget', 'description' => __('A widget that displays 125px by 125px ads.', 'framework') );
@@ -32,7 +32,7 @@ class ag_125ad_widget extends WP_Widget {
 		$control_ops = array( 'width' => 400, 'height' => 350, 'id_base' => 'ag_125ad_widget' );
 
 		/* Create widget */
-		$this->WP_Widget( 'ag_125ad_widget', __('Custom 125px by 125px Ad Widget', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'ag_125ad_widget', __('Custom 125px by 125px Ad Widget', 'framework'), $widget_ops, $control_ops );
 	}
 
 /*----------------------------------------------------------*/

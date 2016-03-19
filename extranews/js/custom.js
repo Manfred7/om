@@ -480,7 +480,7 @@ jQuery('div.homeslider').each(function() {
             controlNav: false, // 1,2,3... navigation
             controlNavThumbs: false, // Use thumbnails for Control Nav
             pauseOnHover: true, // Stop animation while hovering
-            manualAdvance:  tw.options.homeAutoPlay, // How long each slide will show, // Force manual transitions
+            manualAdvance: (tw.options.homeAutoPlay == 'true'), // How long each slide will show, // Force manual transitions
             prevText: 'Prev', // Prev directionNav text
             nextText: 'Next', // Next directionNav text
             randomStart: false, // Start on a random slide
@@ -491,21 +491,20 @@ jQuery('div.homeslider').each(function() {
             afterLoad: function(){} // Triggers when slider has loaded
         });
       });
-
 jQuery('div.homepageslideshow div.slider').nivoSlider({
             effect: tw.options.homeSlideshowTrans, // Specify sets like: 'fold,fade,sliceDown'
             slices: 15, // For slice animations
             boxCols: 8, // For box animations
             boxRows: 4, // For box animations
             animSpeed: 800, // Slide transition speed
-            pauseTime: tw.options.homeAutoPlayDelay, // How long each slide will show
+            pauseTime: Number( tw.options.homeAutoPlayDelay ), // How long each slide will show
             startSlide: 0, // Set starting Slide (0 index)
             directionNav: true, // Next & Prev navigation
             directionNavHide: true, // Only show on hover
             controlNav: true, // 1,2,3... navigation
             controlNavThumbs: false, // Use thumbnails for Control Nav
             pauseOnHover: true, // Stop animation while hovering
-            manualAdvance: tw.options.homeAutoPlay, // How long each slide will show, // Force manual transitions
+            manualAdvance: (tw.options.homeAutoPlay == 'true'), // How long each slide will show, // Force manual transitions
             prevText: 'Prev', // Prev directionNav text
             nextText: 'Next', // Next directionNav text
             randomStart: false, // Start on a random slide
@@ -669,7 +668,7 @@ function loadPostsFromCat($category) {
 					var comments = '';
 				}
 
-				$newItems += "<div class='one_col isobrick'><div class='articleinner'><div class='categories'>" + cats + "</div><h2><a href='" + link + "' title='" + title + "'>" + title + "</a></h2> <span class='date'>" + date + " | By " + author + " " + comments + "</span>" + imgreview + " " + content + "<div class='clear'></div></div></div>";
+				$newItems += "<div class='one_col isobrick'><div class='articleinner'><div class='categories'>" + cats + "</div><h2><a href='" + link + "' title='" + title + "'>" + title + "</a></h2> <span class='date'>" + date + " | " + author + " " + comments + "</span>" + imgreview + " " + content + "<div class='clear'></div></div></div>";
 			}
 
 

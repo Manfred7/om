@@ -13,7 +13,7 @@ add_action( 'widgets_init', 'ag_news_widgets' );
 
 // Register widget
 function ag_news_widgets() {
-	register_widget( 'AG_News_Widget' );
+	register_widget( 'ag_news_widget' );
 }
 
 // Widget class
@@ -23,7 +23,7 @@ class ag_news_widget extends WP_Widget {
 /*	Set up the Widget
 /*----------------------------------------------------------*/
 	
-	function AG_News_Widget() {
+	function __construct() {
 	
 		/* General widget settings */
 		$widget_ops = array( 'classname' => 'ag_news_widget', 'description' => __('A widget that displays the latest post(s) from a category.', 'framework') );
@@ -32,7 +32,7 @@ class ag_news_widget extends WP_Widget {
 		$control_ops = array( 'width' => 400, 'height' => 350, 'id_base' => 'ag_news_widget' );
 
 		/* Create widget */
-		$this->WP_Widget( 'ag_news_widget', __('Custom News Widget', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'ag_news_widget', __('Custom News Widget', 'framework'), $widget_ops, $control_ops );
 	}
 
 /*----------------------------------------------------------*/

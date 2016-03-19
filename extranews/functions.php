@@ -295,6 +295,31 @@ if ( function_exists( 'register_nav_menus' ) ) {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/* Render Title Tag
+/*-----------------------------------------------------------------------------------*/
+
+/*
+ * Let WordPress manage the document title.
+ * By adding theme support, we declare that this theme does not use a
+ * hard-coded <title> tag in the document head, and expect WordPress to
+ * provide it for us.
+ */
+add_theme_support( 'title-tag' );
+
+/**
+ * Fallback for older versions
+ */
+if ( ! function_exists( '_wp_render_title_tag' ) ) :
+    function themewich_render_title() {
+?>
+<title><?php wp_title( '-', true, 'right' ); ?></title>
+<?php
+    }
+    add_action( 'wp_head', 'themewich_render_title' );
+endif;
+
+
+/*-----------------------------------------------------------------------------------*/
 /*	Change Default Excerpt Length and add Formatting
 /*-----------------------------------------------------------------------------------*/
 
@@ -962,7 +987,7 @@ function tw_register_required_plugins() {
 			'slug'                  => 'socialfans-counter', // The plugin slug (typically the folder name)
 			'source'                => get_template_directory_uri() . '/functions/plugins/socialfans-counter.zip', // The plugin source
 			'required'              => true, // If false, the plugin is only 'recommended' instead of required
-			'version'               => '3.3', // E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented
+			'version'               => '4.2', // E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented
 			'force_activation'      => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch
 			'force_deactivation'    => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
 		)
