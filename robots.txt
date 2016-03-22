@@ -3,6 +3,7 @@ Disallow: /wp-admin
 Disallow: /wp-includes 
 Disallow: /wp-login.php 
 Disallow: /wp-register.php 
+Disallow: /wp-json/
 Disallow: /xmlrpc.php 
 Disallow: /search 
 Disallow: */trackback/ 
@@ -54,6 +55,7 @@ Disallow: /wp-admin
 Disallow: /wp-includes 
 Disallow: /wp-login.php 
 Disallow: /wp-register.php 
+Disallow: /wp-json/
 Disallow: /xmlrpc.php 
 Disallow: /search 
 Disallow: */trackback/ 
