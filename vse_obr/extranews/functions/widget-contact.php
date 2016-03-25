@@ -19,7 +19,7 @@ add_action( 'widgets_init', 'ag_contact_widgets' );
 
 // Register widget
 function ag_contact_widgets() {
-	register_widget( 'AG_Contact_Widget' );
+	register_widget( 'ag_contact_widget' );
 }
 
 // Widget class
@@ -31,7 +31,7 @@ class ag_contact_widget extends WP_Widget {
 /*	Set up the Widget
 /*----------------------------------------------------------*/
 
-	function AG_Contact_Widget() {
+	function __construct() {
 
 		/* General widget settings */
 		$widget_ops = array( 'classname' => 'ag_contact_widget', 'description' => __('A widget that displays your latest tweets.', 'framework') );
@@ -40,7 +40,7 @@ class ag_contact_widget extends WP_Widget {
 		$control_ops = array( 'width' => 400, 'height' => 350, 'id_base' => 'ag_contact_widget' );
 
 		/* Create widget */
-		$this->WP_Widget( 'ag_contact_widget', __('Custom Quick Contact Widget', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'ag_contact_widget', __('Custom Quick Contact Widget', 'framework'), $widget_ops, $control_ops );
 	}
 
 /*----------------------------------------------------------*/

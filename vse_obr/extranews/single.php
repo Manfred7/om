@@ -45,7 +45,7 @@
 
         <h1 class="blogtitle entry-title" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Thing">
           <span itemprop="name"> 
-          <?php wp_title("",true); ?>
+          <?php the_title(); ?>
           </span>
         </h1>
         <div class="clear"></div>

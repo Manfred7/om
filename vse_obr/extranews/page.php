@@ -8,8 +8,7 @@
     ================================================== -->
     <div class="pagetitlewrap">
         <h1 class="pagetitle">
-            <?php wp_title("",true);
-            if(!wp_title("",false)) { echo bloginfo( 'title');} ?>
+            <?php the_title(); ?>
         </h1>
         <div class="mobileclear"></div>
         <span class="description">

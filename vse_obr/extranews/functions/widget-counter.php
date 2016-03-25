@@ -13,7 +13,7 @@ add_action( 'widgets_init', 'ag_social_widgets' );
 
 // Register widget
 function ag_social_widgets() {
-	register_widget( 'AG_Social_Widget' );
+	register_widget( 'ag_social_widget' );
 }
 
 // Widget class
@@ -23,7 +23,7 @@ class ag_social_widget extends WP_Widget {
 /*	Set up the Widget
 /*----------------------------------------------------------*/
 
-	function AG_Social_Widget() {
+	function __construct() {
 
 		/* General widget settings */
 		$widget_ops = array( 'classname' => 'ag_social_widget', 'description' => __('A widget that displays social links.', 'framework') );
@@ -32,7 +32,7 @@ class ag_social_widget extends WP_Widget {
 		$control_ops = array( 'width' => 400, 'height' => 350, 'id_base' => 'ag_social_widget' );
 
 		/* Create widget */
-		$this->WP_Widget( 'ag_social_widget', __('Custom Social Counter Widget', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'ag_social_widget', __('Custom Social Counter Widget', 'framework'), $widget_ops, $control_ops );
 	}
 
 /*----------------------------------------------------------*/

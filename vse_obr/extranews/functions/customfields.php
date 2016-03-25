@@ -582,7 +582,7 @@ function ag_save_data($post_id) {
 	
 foreach ($meta_box_review['fields'] as $field) {
 		$old = get_post_meta($post_id, $field['id'], true);
-		$new = $_POST[$field['id']];
+		$new = isset($field['id']) ? $_POST[$field['id']] : false;
  
 		if (($new && $new != $old) || ($new && $new == 0)) {
 			update_post_meta($post_id, $field['id'], stripslashes(htmlspecialchars($new)));
@@ -593,7 +593,7 @@ foreach ($meta_box_review['fields'] as $field) {
 
 foreach ($meta_box_video['fields'] as $field) {
 		$old = get_post_meta($post_id, $field['id'], true);
-		$new = $_POST[$field['id']];
+		$new = isset($field['id']) ? $_POST[$field['id']] : false;
  
 		if ($new && $new != $old) {
 			update_post_meta($post_id, $field['id'], stripslashes(htmlspecialchars($new)));
@@ -604,7 +604,7 @@ foreach ($meta_box_video['fields'] as $field) {
 
 foreach ($meta_box_ad_options['fields'] as $field) {
 		$old = get_post_meta($post_id, $field['id'], true);
-		$new = $_POST[$field['id']];
+		$new = isset($field['id']) ? $_POST[$field['id']] : false;
  
 		if ($new && $new != $old) {
 			update_post_meta($post_id, $field['id'], stripslashes(htmlspecialchars($new)));
@@ -615,7 +615,7 @@ foreach ($meta_box_ad_options['fields'] as $field) {
 
 foreach ($meta_box_page['fields'] as $field) {
 		$old = get_post_meta($post_id, $field['id'], true);
-		$new = $_POST[$field['id']];
+		$new = isset($field['id']) ? $_POST[$field['id']] : false;
  
 		if ($new && $new != $old) {
 			update_post_meta($post_id, $field['id'], stripslashes(htmlspecialchars($new)));

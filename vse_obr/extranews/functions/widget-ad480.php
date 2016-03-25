@@ -13,7 +13,7 @@ add_action( 'widgets_init', 'ag_480ad_widgets' );
 
 // Register widget
 function ag_480ad_widgets() {
-	register_widget( 'AG_480Ad_Widget' );
+	register_widget( 'ag_480ad_widget' );
 }
 
 // Widget class
@@ -23,7 +23,7 @@ class ag_480ad_widget extends WP_Widget {
 /*	Set up the Widget
 /*----------------------------------------------------------*/
 	
-	function AG_480Ad_Widget() {
+	function __construct() {
 	
 		/* General widget settings */
 		$widget_ops = array( 'classname' => 'ag_480ad_widget', 'description' => __('A widget that displays 480px by 60px ads.', 'framework') );
@@ -32,7 +32,7 @@ class ag_480ad_widget extends WP_Widget {
 		$control_ops = array( 'width' => 400, 'height' => 350, 'id_base' => 'ag_480ad_widget' );
 
 		/* Create widget */
-		$this->WP_Widget( 'ag_480ad_widget', __('Custom 480px by 60px Ad Widget', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'ag_480ad_widget', __('Custom 480px by 60px Ad Widget', 'framework'), $widget_ops, $control_ops );
 	}
 
 /*----------------------------------------------------------*/
