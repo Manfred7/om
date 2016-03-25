@@ -1,0 +1,1649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aware Wordpress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-26 12:22-0600\n"
+"PO-Revision-Date: 2016-02-07 23:07+0300\n"
+"Last-Translator: Andre Gagnon <support@designcirc.us>\n"
+"Language-Team: 2winfactor <support@designcirc.us>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e;__e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8 ../package/ExtraNews-WordPress-Theme/extranews/404.php:8
+msgid "Page Not Found"
+msgstr "Запись не найдена"
+
+#: ../404.php:11 ../page.php:30 ../template-contact.php:136
+#: ../template-full.php:34
+#: ../package/ExtraNews-WordPress-Theme/extranews/404.php:11
+#: ../package/ExtraNews-WordPress-Theme/extranews/page.php:30
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:136
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-full.php:34
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../404.php:21 ../package/ExtraNews-WordPress-Theme/extranews/404.php:21
+msgid "Try searching for it:"
+msgstr ""
+
+#: ../archive.php:17
+#: ../package/ExtraNews-WordPress-Theme/extranews/archive.php:17
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:19
+#: ../package/ExtraNews-WordPress-Theme/extranews/archive.php:19
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:19
+#: ../package/ExtraNews-WordPress-Theme/extranews/archive.php:19
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:21
+#: ../package/ExtraNews-WordPress-Theme/extranews/archive.php:21
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:21
+#: ../package/ExtraNews-WordPress-Theme/extranews/archive.php:21
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:23
+#: ../package/ExtraNews-WordPress-Theme/extranews/archive.php:23
+msgid "Archives"
+msgstr ""
+
+#: ../author.php:22
+#: ../package/ExtraNews-WordPress-Theme/extranews/author.php:22
+msgid "About"
+msgstr ""
+
+#: ../author.php:24 ../author.php:60
+#: ../package/ExtraNews-WordPress-Theme/extranews/author.php:24
+#: ../package/ExtraNews-WordPress-Theme/extranews/author.php:60
+msgid "Posts By"
+msgstr ""
+
+#: ../comments.php:8
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:16 ../functions.php:221 ../functions/onecol.php:49
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:16
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:223
+msgid "Comments"
+msgstr "Комментарии"
+
+#: ../comments.php:47
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:47
+msgid "Submit a Comment"
+msgstr "Оставить комментарий"
+
+#: ../comments.php:53 ../template-contact.php:146
+#: ../functions/widget-contact.php:77
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:53
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:146
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:77
+msgid "Name"
+msgstr "Имя"
+
+#: ../comments.php:57
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:57
+msgid "Mail"
+msgstr "Почта"
+
+#: ../comments.php:60
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:60
+msgid "Website"
+msgstr "Сайт"
+
+#: ../comments.php:64 ../template-contact.php:165
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:64
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:165
+msgid "Message"
+msgstr "Текст комментария"
+
+#: ../comments.php:69
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:69
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:69
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:69
+msgid "Logout."
+msgstr ""
+
+#: ../comments.php:76
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:76
+msgid "Cancel reply"
+msgstr ""
+
+#: ../comments.php:77
+#: ../package/ExtraNews-WordPress-Theme/extranews/comments.php:77
+msgid "Post Comment"
+msgstr "Комментировать"
+
+#: ../functions.php:220
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:222
+msgid "Comment"
+msgstr "Комментарий"
+
+#: ../functions.php:332 ../functions.php:359
+#: ../functions/extra-functions.php:357 ../functions/extra-functions.php:1097
+#: ../functions/onecol.php:62 ../functions/twocol.php:63
+#: ../functions/twocol.php:66 ../functions/widget-news.php:92
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:334
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:361
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:357
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1097
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/onecol.php:54
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:63
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:66
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:92
+msgid "Read More"
+msgstr "Читать дальше"
+
+#: ../functions.php:510
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:512
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:988 ../functions/class-tgm-plugin-activation.php:226
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:979
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:226
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:989 ../functions/class-tgm-plugin-activation.php:227
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:980
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:227
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:990 ../functions/class-tgm-plugin-activation.php:228
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:981
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:991
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:982
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:1002 ../functions/class-tgm-plugin-activation.php:241
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:993
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:241
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:1003 ../functions/class-tgm-plugin-activation.php:243
+#: ../functions/class-tgm-plugin-activation.php:2442
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:994
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:243
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2442
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:1004
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions.php:995
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../header.php:50
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:50
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:118
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:118
+msgid "Please enable javascript to view this site."
+msgstr ""
+
+#: ../header.php:158 ../header.php:209
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:158
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:209
+msgid "Select a Page"
+msgstr ""
+
+#: ../header.php:162 ../header.php:214
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:162
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:214
+msgid "Hide Navigation"
+msgstr ""
+
+#: ../header.php:228
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:228
+msgid "Scroll to top"
+msgstr ""
+
+#: ../header.php:232
+#: ../package/ExtraNews-WordPress-Theme/extranews/header.php:232
+msgid "Top"
+msgstr ""
+
+#: ../options.php:52
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:52
+msgid "General"
+msgstr ""
+
+#: ../options.php:56
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:56
+msgid "Custom Logo"
+msgstr ""
+
+#: ../options.php:62
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:62
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../options.php:69
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:69
+msgid "Tracking Code"
+msgstr ""
+
+#: ../options.php:75
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:75
+msgid "Customize"
+msgstr ""
+
+#: ../options.php:79
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:79
+msgid "Background Texture"
+msgstr ""
+
+#: ../options.php:94
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:94
+msgid "Custom Background Image"
+msgstr ""
+
+#: ../options.php:100
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:100
+msgid "Background Color"
+msgstr ""
+
+#: ../options.php:106
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:106
+msgid "Layout Option"
+msgstr ""
+
+#: ../options.php:116
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:116
+msgid "Padding Above Logo"
+msgstr ""
+
+#: ../options.php:122
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:122
+msgid "Padding Above Navigation"
+msgstr ""
+
+#: ../options.php:129
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:129
+msgid "Dropdown Menu Text"
+msgstr ""
+
+#: ../options.php:135
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:135
+msgid "Top Panel"
+msgstr ""
+
+#: ../options.php:145
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:145
+msgid "Sidebar Width"
+msgstr ""
+
+#: ../options.php:155
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:155
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options.php:161
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:161
+msgid "Links &amp; Highlight"
+msgstr ""
+
+#: ../options.php:164
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:164
+msgid "Highlight Color"
+msgstr ""
+
+#: ../options.php:170
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:170
+msgid "Button Color"
+msgstr ""
+
+#: ../options.php:176
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:176
+msgid "Button Hover Color"
+msgstr ""
+
+#: ../options.php:182
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:182
+msgid "Link Color"
+msgstr ""
+
+#: ../options.php:188
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:188
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../options.php:194
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:194
+msgid "Homepage"
+msgstr ""
+
+#: ../options.php:197
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:197
+msgid "Number of Sticky Posts on Homepage"
+msgstr ""
+
+#: ../options.php:212
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:212
+msgid "Homepage Slider Autoplay"
+msgstr ""
+
+#: ../options.php:222
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:222
+msgid "Homepage Slideshow Default Autoplay Speed"
+msgstr ""
+
+#: ../options.php:229
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:229
+msgid "Homepage Slideshow Transitions"
+msgstr ""
+
+#: ../options.php:253
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:253
+msgid "Homepage Non-Featured Category"
+msgstr ""
+
+#: ../options.php:260
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:260
+msgid "Number of Non-Featured Homepage Articles"
+msgstr ""
+
+#: ../options.php:266
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:266
+msgid "Homepage Non-Featured Category Columns"
+msgstr ""
+
+#: ../options.php:277
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:277
+msgid "Posts"
+msgstr ""
+
+#: ../options.php:280
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:280
+msgid "Post Columns"
+msgstr ""
+
+#: ../options.php:291
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:291
+msgid "Review Posts Style"
+msgstr ""
+
+#: ../options.php:303
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:303
+msgid "Number of Review Criteria per Post"
+msgstr ""
+
+#: ../options.php:311
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:311
+msgid "Number of Image Slides per Post"
+msgstr ""
+
+#: ../options.php:317
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:317
+msgid "Slideshow Transitions"
+msgstr ""
+
+#: ../options.php:340
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:340
+msgid "Default Croping of Slideshow Images"
+msgstr ""
+
+#: ../options.php:349
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:349
+msgid "Default Slideshow Autoplay"
+msgstr ""
+
+#: ../options.php:360
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:360
+msgid "Post Slideshow Default Autoplay Speed"
+msgstr ""
+
+#: ../options.php:366 ../functions/related.php:17
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:366
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/related.php:17
+msgid "Related Posts"
+msgstr ""
+
+#: ../options.php:376
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:376
+msgid "Number of Related Posts"
+msgstr ""
+
+#: ../options.php:389
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:389
+msgid "Default Share Style"
+msgstr ""
+
+#: ../options.php:399
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:399
+msgid "Default Author Style"
+msgstr ""
+
+#: ../options.php:422
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:422
+msgid "PrettyPhoto Skin"
+msgstr ""
+
+#: ../options.php:437
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:437
+msgid "Forms"
+msgstr ""
+
+#: ../options.php:440
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:440
+msgid "Contact Email Address"
+msgstr "Почта"
+
+#: ../options.php:446
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:446
+msgid "Successfully Sent Heading"
+msgstr ""
+
+#: ../options.php:452
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:452
+msgid "Successfully Sent Description"
+msgstr ""
+
+#: ../options.php:458
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:458
+msgid "Basic Spam Question"
+msgstr ""
+
+#: ../options.php:468
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:468
+msgid "Fonts"
+msgstr ""
+
+#: ../options.php:472
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:472
+msgid "Navigation Font"
+msgstr ""
+
+#: ../options.php:478
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:478
+msgid "Primary Heading Font"
+msgstr ""
+
+#: ../options.php:484
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:484
+msgid "Secondary Heading Font"
+msgstr ""
+
+#: ../options.php:490
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:490
+msgid "Tiny Details Font"
+msgstr ""
+
+#: ../options.php:496
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:496
+msgid "Paragraph Font"
+msgstr ""
+
+#: ../options.php:503
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:503
+msgid "Latin/Cyrillic Character Support"
+msgstr ""
+
+#: ../options.php:513
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:513
+msgid "FAQ"
+msgstr ""
+
+#: ../options.php:541
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:541
+msgid "Updates"
+msgstr ""
+
+#: ../options.php:544
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:544
+msgid "Themeforest Username"
+msgstr ""
+
+#: ../options.php:550
+#: ../package/ExtraNews-WordPress-Theme/extranews/options.php:550
+msgid "Themeforest API Key"
+msgstr ""
+
+#: ../page.php:29 ../template-contact.php:135 ../template-full.php:33
+#: ../package/ExtraNews-WordPress-Theme/extranews/page.php:29
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:135
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-full.php:33
+msgid "Error 404 - Not found."
+msgstr ""
+
+#: ../search.php:18
+#: ../package/ExtraNews-WordPress-Theme/extranews/search.php:18
+msgid "Search Results for:"
+msgstr ""
+
+#: ../searchform.php:4
+#: ../package/ExtraNews-WordPress-Theme/extranews/searchform.php:4
+msgid "To search type and hit enter"
+msgstr ""
+
+#: ../single.php:37 ../functions/onecol.php:47
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:37
+msgid "No Comments"
+msgstr "Нет комментариев"
+
+#: ../single.php:37 ../functions/onecol.php:48
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:37
+msgid "One Comment"
+msgstr ""
+
+#: ../single.php:37
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:37
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: ../single.php:127 ../single.php:153
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:127
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:153
+msgid "On"
+msgstr ""
+
+#: ../single.php:159
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:159
+msgid "Edit Post"
+msgstr "Редактировать"
+
+#: ../single.php:161
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:161
+msgid "Pages:"
+msgstr ""
+
+#: ../single.php:166
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:166
+msgid "Next page"
+msgstr "Следующая запись"
+
+#: ../single.php:167
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:167
+msgid "Previous page"
+msgstr "Предыдущая запись"
+
+#: ../single.php:187
+#: ../package/ExtraNews-WordPress-Theme/extranews/single.php:187
+msgid "Tags"
+msgstr ""
+
+#: ../template-contact.php:32
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:32
+msgid "You forgot to fill in your name"
+msgstr ""
+
+#: ../template-contact.php:42
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:42
+msgid "Your forgot to fill in your email address"
+msgstr ""
+
+#: ../template-contact.php:46
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:46
+msgid "Wrong email format"
+msgstr ""
+
+#: ../template-contact.php:57
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:57
+msgid "You forgot to fill in your message"
+msgstr ""
+
+#: ../template-contact.php:68
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:68
+msgid "Please try answering this again."
+msgstr ""
+
+#: ../template-contact.php:81
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:81
+msgid "Contact from your site"
+msgstr ""
+
+#: ../template-contact.php:128
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:128
+msgid "There were errors in the form."
+msgstr ""
+
+#: ../template-contact.php:129
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:129
+msgid "Please try again."
+msgstr ""
+
+#: ../template-contact.php:155
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:155
+msgid "Email"
+msgstr "Почта"
+
+#: ../template-contact.php:177
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:177
+msgid "What is 5 - 1?"
+msgstr ""
+
+#: ../template-contact.php:188
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-contact.php:188
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: ../template-home-slider.php:81 ../template-home-slider.php:84
+#: ../template-home.php:112 ../template-home.php:115
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home-slider.php:81
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home-slider.php:84
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home.php:112
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home.php:115
+msgid "Latest Posts"
+msgstr ""
+
+#: ../template-home-slider.php:82 ../template-home-slider.php:122
+#: ../template-home.php:113 ../template-home.php:153
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home-slider.php:82
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home-slider.php:122
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home.php:113
+#: ../package/ExtraNews-WordPress-Theme/extranews/template-home.php:153
+msgid "More Headlines"
+msgstr ""
+
+#: ../admin/options-backup.php:108
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:108
+msgid "Import / Export"
+msgstr ""
+
+#: ../admin/options-backup.php:111
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:111
+msgid "Import Settings"
+msgstr ""
+
+#: ../admin/options-backup.php:113
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:113
+msgid ""
+"If you have settings in a backup file on your computer, the Import / Export "
+"system can import those into this site. To get started, upload your backup "
+"file to import from below."
+msgstr ""
+
+#: ../admin/options-backup.php:118
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:118
+#, php-format
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#: ../admin/options-backup.php:121
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:121
+msgid "Upload File and Import"
+msgstr ""
+
+#: ../admin/options-backup.php:127
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:127
+msgid "Export Settings"
+msgstr ""
+
+#: ../admin/options-backup.php:129
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:129
+msgid ""
+"When you click the button below, the Import / Export system will create a "
+"text file for you to save to your computer."
+msgstr ""
+
+#: ../admin/options-backup.php:130
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:130
+#, php-format
+msgid ""
+"This text file can be used to restore your settings here on \"%s\", or to "
+"easily setup another website with the same settings\"."
+msgstr ""
+
+#: ../admin/options-backup.php:135
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:135
+msgid "Download Export File"
+msgstr ""
+
+#: ../admin/options-backup.php:159
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:159
+msgid "Welcome to the OptionsFramework Backup Manager."
+msgstr ""
+
+#: ../admin/options-backup.php:160
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:160
+msgid "Here are a few notes on using this screen."
+msgstr ""
+
+#: ../admin/options-backup.php:161
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:161
+msgid ""
+"The backup manager allows you to backup or restore your \"Theme Options\" "
+"and other settings to or from a text file."
+msgstr ""
+
+#: ../admin/options-backup.php:162
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:162
+msgid ""
+"To create a backup, simply select the setting type you'd like to backup (or "
+"\"All Settings\") and hit the \"Download Export File\" button."
+msgstr ""
+
+#: ../admin/options-backup.php:163
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:163
+msgid ""
+"To restore your settings from a backup, browse your computer for the file "
+"(under the \"Import Settings\" heading) and hit the \"Upload File and Import"
+"\" button. This will restore only the settings that have changed since the "
+"backup."
+msgstr ""
+
+#: ../admin/options-backup.php:165
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:165
+msgid ""
+"Please note that only valid backup files generated through the "
+"OptionsFramework Backup Manager should be imported."
+msgstr ""
+
+#: ../admin/options-backup.php:167
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:167
+msgid "Looking for assistance?"
+msgstr ""
+
+#: ../admin/options-backup.php:168
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:168
+#, php-format
+msgid ""
+"Please post your query on the %sSupport Forums%s where we will do our best "
+"to assist you further."
+msgstr ""
+
+#: ../admin/options-backup.php:188
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:188
+#, php-format
+msgid ""
+"Please note that this backup manager backs up only your settings and not "
+"your content. To backup your content, please use the %sWordPress Export Tool"
+"%s."
+msgstr ""
+
+#: ../admin/options-backup.php:191
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:191
+msgid "There was a problem importing your settings. Please Try again."
+msgstr ""
+
+#: ../admin/options-backup.php:193
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:193
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr ""
+
+#: ../admin/options-backup.php:195
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:195
+msgid "The import file you've provided is invalid. Please try again."
+msgstr ""
+
+#: ../admin/options-backup.php:197
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-backup.php:197
+#, php-format
+msgid "Settings successfully imported. | Return to %sTheme Options%s"
+msgstr ""
+
+#: ../admin/options-framework.php:255 ../admin/options-framework.php:264
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-framework.php:255
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-framework.php:264
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../admin/options-framework.php:296
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-framework.php:296
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/options-framework.php:337
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-framework.php:337
+msgid "Options saved"
+msgstr ""
+
+#: ../admin/options-framework.php:395
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-framework.php:395
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:26
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:128
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:151
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:288
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:288
+#: ../package/ExtraNews-WordPress-Theme/extranews/admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:229
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:242
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:242
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:244
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:244
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:245
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:245
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:246
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:246
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1397
+#: ../functions/class-tgm-plugin-activation.php:1602
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1397
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1602
+msgid "Private Repository"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1401
+#: ../functions/class-tgm-plugin-activation.php:1606
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1401
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1606
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1406
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1406
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1409
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1409
+msgid "Required"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1409
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1409
+msgid "Recommended"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1412
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1412
+msgid "Not Installed"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1415
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1415
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1418
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1418
+msgid "Need Updating"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1627
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1627
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1643
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1643
+msgid "Plugin"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1644
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1644
+msgid "Source"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1645
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1645
+msgid "Type"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1646
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1646
+msgid "Status"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1664
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1664
+msgid "Install"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1665
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1665
+msgid "Activate"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1666
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:1666
+msgid "Update"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2034
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2034
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2425
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2425
+msgid "Install package not available."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2426
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2426
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2427
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2427
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2428
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2428
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2429
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2429
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2430
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2430
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2441
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2441
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2564
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2564
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2565
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2565
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2569
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2569
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2570
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2570
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2571
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2571
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2572
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2572
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2576
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2576
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2578
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2578
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2579
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/class-tgm-plugin-activation.php:2579
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../functions/customfields.php:16
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:16
+msgid "Review Post Options"
+msgstr ""
+
+#: ../functions/customfields.php:22
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:22
+msgid "Is this a Review Post?"
+msgstr ""
+
+#: ../functions/customfields.php:23
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:23
+msgid "Select whether you want this post to be a review post."
+msgstr ""
+
+#: ../functions/customfields.php:35
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:35
+msgid "Review Criteria "
+msgstr ""
+
+#: ../functions/customfields.php:36
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:36
+msgid "Enter your review criteria."
+msgstr ""
+
+#: ../functions/customfields.php:42
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:42
+msgid "Criteria Score"
+msgstr ""
+
+#: ../functions/customfields.php:43
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:43
+msgid "Enter your first criteria score."
+msgstr ""
+
+#: ../functions/customfields.php:58
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:58
+msgid "Review Placement"
+msgstr ""
+
+#: ../functions/customfields.php:59
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:59
+msgid "Select the placement of your homepage slide caption."
+msgstr ""
+
+#: ../functions/customfields.php:66
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:66
+msgid "Overall Rating Text"
+msgstr ""
+
+#: ../functions/customfields.php:67
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:67
+msgid "Enter a word for your overall rating, like \"Superb\" or \"Poor\""
+msgstr ""
+
+#: ../functions/customfields.php:73
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:73
+msgid "Rating Summary"
+msgstr ""
+
+#: ../functions/customfields.php:74
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:74
+msgid ""
+"Enter a rating summary here. You can do a short summary, or even a pros and "
+"cons list."
+msgstr ""
+
+#: ../functions/customfields.php:83
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:83
+msgid "Video Post Options"
+msgstr ""
+
+#: ../functions/customfields.php:89
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:89
+msgid "YouTube or Vimeo Video URL"
+msgstr ""
+
+#: ../functions/customfields.php:90
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:90
+msgid ""
+"If you want to use a YouTube or Vimeo video, please enter in the URL here."
+msgstr ""
+
+#: ../functions/customfields.php:100
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:100
+msgid "Additional Options"
+msgstr ""
+
+#: ../functions/customfields.php:106
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:106
+msgid "Crop Slideshow Images?"
+msgstr ""
+
+#: ../functions/customfields.php:107
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:107
+msgid "Select \"Yes\" if you want all the images to have the same height."
+msgstr ""
+
+#: ../functions/customfields.php:117
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:117
+msgid "Autoplay Slideshow?"
+msgstr ""
+
+#: ../functions/customfields.php:118
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:118
+msgid "Select \"Yes\" if you want your slideshow to automatically play."
+msgstr ""
+
+#: ../functions/customfields.php:128
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:128
+msgid "Share Style"
+msgstr ""
+
+#: ../functions/customfields.php:129
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:129
+msgid "Select a sharing section style for your post."
+msgstr ""
+
+#: ../functions/customfields.php:140
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:140
+msgid "Author Style"
+msgstr ""
+
+#: ../functions/customfields.php:141
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:141
+msgid "What style do you want the author information?"
+msgstr ""
+
+#: ../functions/customfields.php:156
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:156
+msgid "Title Options"
+msgstr ""
+
+#: ../functions/customfields.php:162
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:162
+msgid "Optional Title Description"
+msgstr ""
+
+#: ../functions/customfields.php:163
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/customfields.php:163
+msgid "Write a description for your title."
+msgstr ""
+
+#: ../functions/extra-functions.php:240
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:240
+#, php-format
+msgid "View all projects filed under %s"
+msgstr ""
+
+#: ../functions/extra-functions.php:256
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:256
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: ../functions/extra-functions.php:306
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:306
+msgid "Nonce Failed."
+msgstr ""
+
+#: ../functions/extra-functions.php:878
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:878
+msgid "Views"
+msgstr ""
+
+#: ../functions/extra-functions.php:923 ../functions/extra-functions.php:925
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:923
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:925
+msgid "Previous Story"
+msgstr "Предыдущая статья"
+
+#: ../functions/extra-functions.php:925
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:925
+msgid "There are no older stories."
+msgstr ""
+
+#: ../functions/extra-functions.php:929 ../functions/extra-functions.php:931
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:929
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:931
+msgid "Next Story"
+msgstr "Следующая статья"
+
+#: ../functions/extra-functions.php:931
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:931
+msgid "This is the most recent story."
+msgstr "Это самая последняя статья."
+
+#: ../functions/extra-functions.php:963
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:963
+msgid "News"
+msgstr ""
+
+#: ../functions/extra-functions.php:1394 ../functions/widget-tab.php:73
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1394
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:73
+msgid "Facebook"
+msgstr ""
+
+#: ../functions/extra-functions.php:1397
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1397
+msgid "Twitter"
+msgstr ""
+
+#: ../functions/extra-functions.php:1400
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1400
+msgid "Google Plus"
+msgstr ""
+
+#: ../functions/extra-functions.php:1403
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1403
+msgid "LinkedIn"
+msgstr ""
+
+#: ../functions/extra-functions.php:1406
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1406
+msgid "Pinterest"
+msgstr ""
+
+#: ../functions/extra-functions.php:1409
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/extra-functions.php:1409
+msgid "YouTube"
+msgstr ""
+
+#: ../functions/minimalshare.php:2
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:2
+msgid "Share This:"
+msgstr ""
+
+#: ../functions/minimalshare.php:5
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:5
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../functions/minimalshare.php:6
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:6
+msgid "Tweet This"
+msgstr ""
+
+#: ../functions/minimalshare.php:7
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:7
+msgid "Share on Google Plus"
+msgstr ""
+
+#: ../functions/minimalshare.php:8
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:8
+msgid "Pin This"
+msgstr ""
+
+#: ../functions/minimalshare.php:9
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:9
+msgid "Check out"
+msgstr ""
+
+#: ../functions/minimalshare.php:9
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/minimalshare.php:9
+msgid "Email This"
+msgstr ""
+
+#: ../functions/multi-post-thumbnails.php:77
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/multi-post-thumbnails.php:77
+#, php-format
+msgid ""
+"The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are "
+"required"
+msgstr ""
+
+#: ../functions/multi-post-thumbnails.php:159
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/multi-post-thumbnails.php:159
+#, php-format
+msgid "Set as %3$s"
+msgstr ""
+
+#: ../functions/onecol.php:19 ../functions/onecol.php:33
+#: ../functions/twocol.php:20 ../functions/twocol.php:41
+#: ../functions/twocol.php:53 ../functions/widget-news.php:70
+#: ../functions/widget-news.php:76 ../functions/widget-news.php:83
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/onecol.php:19
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/onecol.php:33
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:20
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:41
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:53
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:70
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:76
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:83
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../functions/review.php:32
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/review.php:32
+msgid "Review Overview"
+msgstr ""
+
+#: ../functions/theme-updater.php:68
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/theme-updater.php:68
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../functions/theme-updater.php:72
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/theme-updater.php:72
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../functions/theme-updater.php:97
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/theme-updater.php:97
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../functions/theme-updater.php:168
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/theme-updater.php:168
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../functions/twocol.php:77
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:77
+msgid "Nothing Found."
+msgstr ""
+
+#: ../functions/twocol.php:77
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/twocol.php:77
+msgid "Try Another Search:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:29
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:29
+msgid "A widget that displays 125px by 125px ads."
+msgstr ""
+
+#: ../functions/widget-ad125.php:35
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:35
+msgid "Custom 125px by 125px Ad Widget"
+msgstr ""
+
+#: ../functions/widget-ad125.php:179
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:179
+msgid "Ads Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-ad125.php:185
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:185
+msgid "Randomize Ad Order?"
+msgstr ""
+
+#: ../functions/widget-ad125.php:188
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:188
+msgid "Don't Randomize"
+msgstr ""
+
+#: ../functions/widget-ad125.php:189
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:189
+msgid "Randomize"
+msgstr ""
+
+#: ../functions/widget-ad125.php:194 ../functions/widget-ad480.php:125
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:194
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad480.php:125
+msgid "Ad 1 Image URL:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:200 ../functions/widget-ad480.php:131
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:200
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad480.php:131
+msgid "Ad 1 Link:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:206
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:206
+msgid "Ad 2 Image URL:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:212
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:212
+msgid "Ad 2 Link:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:218
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:218
+msgid "Ad 3 Image URL:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:224
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:224
+msgid "Ad 3 Link:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:230
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:230
+msgid "Ad 4 Image URL:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:236
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:236
+msgid "Ad 4 Link:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:242
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:242
+msgid "Ad 5 Image URL:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:248
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:248
+msgid "Ad 5 Link:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:254
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:254
+msgid "Ad 6 Image URL:"
+msgstr ""
+
+#: ../functions/widget-ad125.php:260
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad125.php:260
+msgid "Ad 6 Link:"
+msgstr ""
+
+#: ../functions/widget-ad480.php:29
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad480.php:29
+msgid "A widget that displays 480px by 60px ads."
+msgstr ""
+
+#: ../functions/widget-ad480.php:35
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad480.php:35
+msgid "Custom 480px by 60px Ad Widget"
+msgstr ""
+
+#: ../functions/widget-ad480.php:119
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-ad480.php:119
+msgid "Ad Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-contact.php:37
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:37
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: ../functions/widget-contact.php:43
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:43
+msgid "Custom Quick Contact Widget"
+msgstr ""
+
+#: ../functions/widget-contact.php:78
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:78
+msgid "Email Address"
+msgstr "Адрес E-mail"
+
+#: ../functions/widget-contact.php:79
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:79
+msgid "Your Message"
+msgstr "Ваше сообщение"
+
+#: ../functions/widget-contact.php:160
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:160
+msgid "Contact Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-contact.php:166
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:166
+msgid "Contact Page URL:"
+msgstr ""
+
+#: ../functions/widget-contact.php:172
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-contact.php:172
+msgid "Button Text:"
+msgstr ""
+
+#: ../functions/widget-counter.php:29
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:29
+msgid "A widget that displays social links."
+msgstr ""
+
+#: ../functions/widget-counter.php:35
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:35
+msgid "Custom Social Counter Widget"
+msgstr ""
+
+#: ../functions/widget-counter.php:172
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:172
+msgid "Counter Widget Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-counter.php:178
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:178
+msgid "Facebook ID (the end of your custom url):"
+msgstr ""
+
+#: ../functions/widget-counter.php:184
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:184
+msgid "Twitter ID (without the @):"
+msgstr ""
+
+#: ../functions/widget-counter.php:190
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:190
+msgid "Follower Count:"
+msgstr ""
+
+#: ../functions/widget-counter.php:196
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:196
+msgid "Feedburner ID (end of your feedburner url):"
+msgstr ""
+
+#: ../functions/widget-counter.php:202
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-counter.php:202
+msgid "RSS Count: (Feedburner API deprecated, manual entry required)"
+msgstr ""
+
+#: ../functions/widget-news.php:29
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:29
+msgid "A widget that displays the latest post(s) from a category."
+msgstr ""
+
+#: ../functions/widget-news.php:35
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:35
+msgid "Custom News Widget"
+msgstr ""
+
+#: ../functions/widget-news.php:144
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:144
+msgid "News Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-news.php:150
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:150
+msgid "Number of Posts:"
+msgstr ""
+
+#: ../functions/widget-news.php:157
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-news.php:157
+msgid "Choose a Category:"
+msgstr ""
+
+#: ../functions/widget-tab.php:29
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:29
+msgid "A widget that displays popular posts, facebook like box."
+msgstr ""
+
+#: ../functions/widget-tab.php:35
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:35
+msgid "Custom Posts and Facebook Tab Widget"
+msgstr ""
+
+#: ../functions/widget-tab.php:71
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:71
+msgid "Popular"
+msgstr ""
+
+#: ../functions/widget-tab.php:72
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:72
+msgid "Recent"
+msgstr ""
+
+#: ../functions/widget-tab.php:207
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:207
+msgid "Tabs Title (Optional):"
+msgstr ""
+
+#: ../functions/widget-tab.php:214
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:214
+msgid "Number of Posts"
+msgstr ""
+
+#: ../functions/widget-tab.php:221
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:221
+msgid "Social Media Tab: "
+msgstr ""
+
+#: ../functions/widget-tab.php:231
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:231
+msgid "Is This Widget in the Footer? "
+msgstr ""
+
+#: ../functions/widget-tab.php:241
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:241
+msgid "Facebook URL (Optional):"
+msgstr ""
+
+#: ../functions/widget-tab.php:248
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:248
+msgid "Feed"
+msgstr ""
+
+#: ../functions/widget-tab.php:258
+#: ../package/ExtraNews-WordPress-Theme/extranews/functions/widget-tab.php:258
+msgid "Faces"
+msgstr ""
