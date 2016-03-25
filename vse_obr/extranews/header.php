@@ -152,7 +152,12 @@ echo '<style type="text/css">
               <a id="jump_top" href="#mobilenav_top" class="scroll"><?php echo  $menutext; ?></a><div class="clear"></div>
               <div class="mobilenavigation">
                 <?php if ( has_nav_menu( 'top_nav_menu' ) ) { /* if menu location 'Top Navigation Menu' exists then use custom menu */ ?>
-                      <?php wp_nav_menu( array('menu' => 'Top Navigation Menu', 'theme_location' => 'top_nav_menu', 'items_wrap' => '<ul id="mobilenav_top"><li id="back_top"><a href="#top" class="menutop">'. __('Hide Navigation', 'framework') . '</a></li>%3$s</ul>')); ?>
+                      <?php wp_nav_menu(
+                          array(
+                              'menu'           => 'Top Navigation Menu',
+                              'theme_location' => 'top_nav_menu',
+                              'items_wrap'     => '<ul id="mobilenav_top"><li id="back_top"><a href="#top" class="menutop">' . __( 'Hide Navigation', 'framework' ) . '</a></li>%3$s</ul>'
+                          ) ); ?>
                 <?php } ?>
               </div>
               <div class="clear"></div>
@@ -206,7 +211,8 @@ echo '<style type="text/css">
         <?php if ( has_nav_menu( 'main_nav_menu' ) ) { /* if menu location 'Top Navigation Menu' exists then use custom menu */ ?>
                 <?php wp_nav_menu( array('menu' => 'Main Navigation Menu', 'theme_location' => 'main_nav_menu', 'items_wrap' => '<ul id="mobilenav"><li id="back"><a href="#top" class="menutop">'. __('Hide Navigation', 'framework') . '</a></li>%3$s</ul>')); ?>
             <?php } else { /* else use wp_list_pages */?>
-                <ul class="sf-menu sf-vertical">
+	            <ul id="mobilenav">
+		            <li id="back"><a href="#top" class="menutop"><?php _e('Hide Navigation', 'framework'); ?></a></li>
                     <?php wp_list_pages( array('title_li' => '','sort_column' => 'menu_order', )); ?>
                 </ul>
             <?php } ?>
